@@ -19,7 +19,7 @@ INSERT INTO contacts (name, phone) VALUES
   ('Pedro', '5541999990003');
 ```
 
-> O campo `phone` deve conter apenas digitos, incluindo codigo do pais e DDD.
+> O campo `phone` deve conter apenas dígitos, incluindo código do país e DDD.
 > Exemplo: `5541999990001` = Brasil (55) + DDD (41) + numero (999990001).
 
 ## Variaveis de ambiente
@@ -36,12 +36,12 @@ cp .env.example .env
 | `SUPABASE_KEY`      | Supabase -> Settings -> API -> anon public key    |
 | `ZAPI_INSTANCE_ID`  | Z-API -> sua instancia -> ID da instancia         |
 | `ZAPI_TOKEN`        | Z-API -> sua instancia -> Token                   |
-| `ZAPI_CLIENT_TOKEN` | Z-API -> Account -> Security Token                |
+| `ZAPI_CLIENT_TOKEN` | Z-API -> Seguranca -> Security Token              |
 
 
 ## Como rodar
 
 ```bash
 pip install -r requirements.txt
-python main.py
+python3 main.py
 ```
