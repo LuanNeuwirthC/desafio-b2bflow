@@ -15,7 +15,7 @@ def send_message(contact: Contact) -> bool:
     }
     payload = {
         "phone": contact.phone,
-        "message": f"Olá, {contact.name} tudo bem com voce?",
+        "message": f"Olá, {contact.name} tudo bem com você?",
     }
     try:
         response = requests.post(url, json=payload, headers=headers, timeout=10)
